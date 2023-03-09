@@ -1,0 +1,10 @@
+vsersion: 2
+
+sources:
+  - name: airbnb
+    database: raw
+    schema: airbnb
+    tables:
+      -name: raw_hosts
+      -name: raw_reviews
+      -name: raw_listings
