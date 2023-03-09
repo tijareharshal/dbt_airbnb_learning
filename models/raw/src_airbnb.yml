@@ -5,6 +5,11 @@ sources:
     database: raw
     schema: airbnb
     tables:
-      -name: raw_hosts
-      -name: raw_reviews
-      -name: raw_listings
+      -name: hosts
+        identifier: raw_hosts
+
+      -name: reviews
+        identifier: raw_reviews
+
+      -name: listings
+        identifier: raw_listings
