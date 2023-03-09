@@ -1,15 +1,16 @@
-vsersion: 2
+version: 2
 
 sources:
   - name: airbnb
     database: raw
     schema: airbnb
     tables:
-      -name: hosts
+      - name: listings
+        identifier: raw_listings
+
+      - name: hosts
         identifier: raw_hosts
 
-      -name: reviews
+      - name: reviews
         identifier: raw_reviews
-
-      -name: listings
-        identifier: raw_listings
+        
